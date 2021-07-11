@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>1ea5a425-9ab4-412e-b3a1-d6da7f92510b</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+   <PackageReference Include="Dapper" Version="2.0.78" />
+    <PackageReference Include="Npgsql" Version="5.0.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+</Project>
