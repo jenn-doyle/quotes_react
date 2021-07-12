@@ -30,7 +30,7 @@ function App() {
           className="glass-box"
           url={appData.songData.link}
           width="300px"
-          height="200px"
+          height="250px"
         />
         <img
           className="glass-box"
