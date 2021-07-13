@@ -9,7 +9,7 @@ function usePost(newQuote) {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(newQuote),
     };
-    fetch("http://localhost:5000/quotes", requestOptions);
+    fetch("https://quotes-songs-pics.herokuapp.com/quotes", requestOptions);
   }
 
   useEffect(() => {

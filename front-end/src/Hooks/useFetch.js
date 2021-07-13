@@ -5,9 +5,9 @@ function useFetch(id) {
   const [quoteState, setQuoteState] = useState({});
   const [picState, setPicState] = useState(1);
 
-  const BACKEND_URL_Songs = "http://localhost:5000/songs";
-  const BACKEND_URL_Quotes = "http://localhost:5000/quotes";
-  const BACKEND_URL_Pics = "http://localhost:5000/pics";
+  const BACKEND_URL_Songs = "https://quotes-songs-pics.herokuapp.com/songs";
+  const BACKEND_URL_Quotes = "https://quotes-songs-pics.herokuapp.com/quotes";
+  const BACKEND_URL_Pics = "https://quotes-songs-pics.herokuapp.com/pics";
 
   let songCode = id;
 
